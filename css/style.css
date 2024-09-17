@@ -1,9 +1,72 @@
-* {
-  box-sizing: border-box;
+body {
+  /* background-color: orange; */
 }
 
-div {
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.block-logo, 
+.block-info {
+  color: white;
+}
+
+.block-logo {
+  display: flex;
+  gap: 35px;
+}
+
+.block-logo > p {
+  background: #FFFFFF1F;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.block-info {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  gap: 25px;
+}
+
+.block-info ul li {
+  list-style-type: none;
+}
+
+li {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.block-info > ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
+}
+
+.block-sing,
+.block-info,
+.block-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-sing {
+  gap: 20px;
 }
