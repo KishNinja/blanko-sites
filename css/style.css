@@ -1,5 +1,11 @@
+/* Header */
+
+* {
+  user-select: none;
+}
+
 body {
-  /* background-color: orange; */
+  height: 100vh;
 }
 
 .header {
@@ -7,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5%;
+  padding: 0 80px;
 }
 
 .block-logo, 
@@ -25,14 +31,14 @@ body {
   padding: 4px 8px;
   border-radius: 10px;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: Roboto-Regular, serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
 
 .block-info {
-  font-family: Roboto;
+  font-family: Roboto, serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -45,7 +51,7 @@ body {
 }
 
 li {
-  font-family: Roboto;
+  font-family: Roboto-Regular, serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -56,7 +62,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 34px;
 }
 
 .block-sing,
@@ -68,5 +74,93 @@ li {
 }
 
 .block-sing {
-  gap: 20px;
+  gap: 24px;
+}
+
+/* Welcome */
+.welcome {
+  background: #FF7143;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+.block-welcome-1,
+.block-welcome-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Work text. */
+.block-welcome-1 {
+  h1 {
+    font-family: Roboto-Bold, serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+  }
+
+  p {
+    font-family: Roboto-Regular, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    width: 75%;
+  }
+
+}
+
+.block-welcome-2 {
+  h1 {
+    font-family: Roboto-Bold, serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    width: 55%;
+  }
+
+  span {
+    font-family: Roboto-Regular, serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    opacity: .7;
+  }
+}
+
+.welcome-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.welcome-buttons a:first-child {
+  color: white;
+  background-color: black;
+}
+
+.welcome-buttons a:last-child {
+  color: black;
+  background-color: white;
+}
+
+.block-welcome-2 {
+  margin-top: 160px;
+}
+
+.block-red {
+  width: 80px;
+  position: absolute;
+  background-color: red;
+  top: 0px;
+  left: 0;
 }

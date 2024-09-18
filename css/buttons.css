@@ -1,4 +1,5 @@
-.button-5 {
+.button-5, .primary, .doubl {
+    font-family: Roboto-Bold, serif;
     align-items: center;
     background-clip: padding-box;
     background-color: #fa6400;
