@@ -164,3 +164,27 @@ li {
   top: 0px;
   left: 0;
 }
+
+
+/* section Model */
+
+.text-block {
+  background: #000000;
+  height: 603px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.text-block h1, .text-block p {
+  color: white;
+}
+
+.model {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
