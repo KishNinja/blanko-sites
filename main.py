@@ -18,4 +18,5 @@ def privat_string(string):
     # Написано на cpp.
     if len(string) >= 5:
         return True
-    return False
+    else:
+        return False
