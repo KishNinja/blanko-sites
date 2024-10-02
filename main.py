@@ -1,7 +1,7 @@
 
 # dict = {
 #     1: 'Alica',
-#     2: 'Bail', 
+#     2: 'Bail',
 #     3: 'Griha',
 
 # }
@@ -53,11 +53,8 @@ list = set(list)
 
 users = ['Ivan', 'Olga', 'Danil', 'Vlad', 'Oleg', 'Danil']
 
-def sum_num(l, t):
-    total = 0
-    for i in l:
-        s = t - i
-        if s in l:
-            total = s + i
-    print(total)
-sum_num([2, 7, 11, 15], 9)
+def sorts(l):
+    pass
+
+# 1, 2, 3, 5, 5, 7, 8, 9
+# sorts([1,2,5,3,5,7,9,8])
