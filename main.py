@@ -58,3 +58,18 @@ def sorts(l):
 
 # 1, 2, 3, 5, 5, 7, 8, 9
 # sorts([1,2,5,3,5,7,9,8])
+playrs = {
+    'oxxxymiron': 152,
+    'slava_kpps': 33,
+    'girl_in_red': 12,
+}
+
+def plat(p = playrs):
+    exu = ''
+    s = 0
+    for exuctor, liste in p.items():
+        if liste > s:
+            s = liste
+            exu = exuctor
+    print(f'У {exu.capitalize()} наибольшое прослушивание {s}')
+plat()
