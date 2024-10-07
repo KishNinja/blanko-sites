@@ -8,13 +8,6 @@ import turtle
 # and where you have to print an output (the index of the mountain to fire on)
 # The inputs you are given are automatically updated according to your last actions.
 
-def randoms():
-    a = 120
-a = 10
-def foo(a = a):
-    return a
-
-
 class Phone:
     def __init__(self, name, color, price, orm, memory) -> None:
         self.name = name
@@ -40,3 +33,22 @@ class Iphone(Phone):
         # super это обращение к предыдущему куску кода который находится в 
         # классе родитель.
         return f'{super().__str__()}\nIOS - {self.ios}'
+
+class Enemy():
+    def __init__(self, name, hp) -> None:
+        self.name = name
+        self.hp = hp 
+
+class Guns():
+    def __init__(self, damage) -> None:
+        self.damege = damage
+
+    # Когда мы передаем в метод объект, то нам предаставляются вся информация объекта.
+    def __damage_fnc__(self, emeny) -> None:
+        i = 0
+        while emeny.hp > 0:
+            emeny.hp -= self.damege  
+            i += 1
+            if emeny.hp == 0:
+                break
+        return f'Было нанесено {i} удара, {emeny.name} убит.'
