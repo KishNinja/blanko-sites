@@ -52,3 +52,27 @@ class Guns():
             if emeny.hp == 0:
                 break
         return f'Было нанесено {i} удара, {emeny.name} убит.'
+
+class Car():
+    def __init__(self, color, number, weight, price):
+        self.color = color
+        self.number = number
+        self.weight = weight
+        self.price = price
+    
+    def __pricefnc__(self):
+        int_price = self.price
+
+        def filter(string):
+            string = string.replace('$', '')
+            string = string.replace(' ', '')
+            string = string.replace('.', '')
+            string = string.replace('€', '')
+            return string
+        int_price = int(filter(int_price))
+        if int_price < 3_000:
+            return f'Are you car cheap'
+        elif int_price > 3_000:
+            return f'Are you car aberage in price'
+        else:
+            return f'Are you car expensive'

@@ -11,4 +11,6 @@ emeny1 = main.Enemy(name = 'robot', hp=100)
 
 # round guns1 and emeny1.
 round = guns1.__damage_fnc__(emeny1)
-print(round)
+
+mersedes = main.Car(color='Black', number='AE 1243 VB', weight=1000, price='3500$')
+print(mersedes.__pricefnc__())
