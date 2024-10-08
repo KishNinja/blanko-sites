@@ -13,4 +13,8 @@ emeny1 = main.Enemy(name = 'robot', hp=100)
 round = guns1.__damage_fnc__(emeny1)
 
 mersedes = main.Car(color='Black', number='AE 1243 VB', weight=1000, price='3500$')
-print(mersedes.__pricefnc__())
+# print(mersedes.__pricefnc__())
+print(main.date_json)
+
+with open('python_project/date.json', 'w') as file:
+    main.json.dump(main.date_json, file, indent=2)

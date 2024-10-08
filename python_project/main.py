@@ -2,11 +2,41 @@ import sys
 import math
 from random import randint
 import turtle
+import json
 # The while loop represents the game.
 # Each iteration represents a turn of the game
 # where you are given inputs (the heights of the mountains)
 # and where you have to print an output (the index of the mountain to fire on)
 # The inputs you are given are automatically updated according to your last actions.
+
+with open('python_project/date.json', 'r', encoding='utf-8') as file:
+    date_json = json.load(file)
+
+
+# Add artist
+date_json['Oxxxymiron'] = {
+    "name": "Miron",
+    "age": 39,
+    "from": "Russia",
+    "count albom": 3,
+    "count EP": "0, пидорас ебанный",
+}
+
+date_json["SLAVAKPSS"] = {
+    "name": "Slava",
+    "age": 31,
+    "from": "Russia",
+    "count albom": 37,
+    "count EP": 120,
+}
+
+date_json['Oxxxymiron'] = {
+    "name": "Miron",
+    "age": 39,
+    "from": "Russia",
+    "count albom": 3,
+    "count EP": 0,
+}
 
 class Phone:
     def __init__(self, name, color, price, orm, memory) -> None:
