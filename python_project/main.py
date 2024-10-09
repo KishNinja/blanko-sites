@@ -1,12 +1,18 @@
 import sys
+import os
 import math
 from random import randint
 import turtle
-# The while loop represents the game.
-# Each iteration represents a turn of the game
-# where you are given inputs (the heights of the mountains)
-# and where you have to print an output (the index of the mountain to fire on)
-# The inputs you are given are automatically updated according to your last actions.
+import datetime
+import json
+import requests
+
+time = datetime.datetime.now()
+
+___ = datetime.datetime.now()
+
+with open('python_project/date.json', 'r', encoding='utf-8') as file:
+    oxxxymiron_json = json.load(file)
 
 class Phone:
     def __init__(self, name, color, price, orm, memory) -> None:
