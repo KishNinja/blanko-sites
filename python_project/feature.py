@@ -15,5 +15,5 @@ round = guns1.__damage_fnc__(emeny1)
 
 
 # print(main.json.dumps(main.oxxxymiron_json, indent=2))
-with open('python_project/date.json', 'w',  encoding='utf-8') as file:
-    main.json.dump(main.oxxxymiron_json, file, ensure_ascii=False, indent=2)
+# with open('python_project/date.json', 'w',  encoding='utf-8') as file:
+#     main.json.dump(main.oxxxymiron_json, file, ensure_ascii=False, indent=2)
