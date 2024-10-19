@@ -1,0 +1,19 @@
+{
+  "name": "oxxxy-photo",
+  "Accept-Ranges": "bytes",
+  "Content-Type": "image/jpeg",
+  "Access-Control-Allow-Origin": "*",
+  "Content-Security-Policy-Report-Only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/images-tbn",
+  "Cross-Origin-Resource-Policy": "cross-origin",
+  "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"images-tbn\"",
+  "Report-To": "{\"group\":\"images-tbn\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/images-tbn\"}]}",
+  "Content-Length": "6419",
+  "Date": "Sat, 19 Oct 2024 20:14:57 GMT",
+  "Expires": "Sun, 19 Oct 2025 20:14:57 GMT",
+  "Cache-Control": "public, max-age=31536000",
+  "Last-Modified": "Wed, 27 Oct 2021 00:49:01 GMT",
+  "X-Content-Type-Options": "nosniff",
+  "Server": "sffe",
+  "X-XSS-Protection": "0",
+  "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
